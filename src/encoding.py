@@ -15,7 +15,7 @@ def one_hot_encoder(df, columns=None, min_frequency=3000, max_categories=5, drop
     - df (pd.DataFrame): Dataframe with one-hot encoded features
     """
     if columns == None:
-        df.select_dtypes(include="object").columns
+        columns = df.select_dtypes(include="object").columns
 
     ohe = OneHotEncoder(sparse_output=False, handle_unknown="ignore", 
                     min_frequency=min_frequency, max_categories=max_categories)
