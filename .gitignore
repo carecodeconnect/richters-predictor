@@ -131,3 +131,6 @@ coverage.xml
 
 # Data folder
 data/
+
+# Exploration notebooks
+notebook/explore_*
