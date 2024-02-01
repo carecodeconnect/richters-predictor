@@ -1,0 +1,130 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyd
+
+# C extensions
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Python virtual environment
+envs/
+.venv
+.env
+*.sqlite3
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# pytest
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+*.cover
+*.py,cover
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# pyenv
+.python-version
+
+# tox
+.tox/
+.log
+local/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor specific files
+.idea/
+.vscode/
+*.swp
+*~
+*.bak
+*.tmp
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+MANIFEST
+*manifest.in
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Other
+instance/
+*.bak
+*.swp
+*.swo
+
+# Testing artifacts
+*.cover
+*.coverage.*
+.coverage
+.coverage.*
+cache
+nosetests.xml
+coverage.xml
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Distribution / packaging
+.Python
+develop-eggs/
+eggs/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+.coverage.*
+*.coverage
+*.cache
+nosetests.xml
+coverage.xml
+*.py,cover
+.hypothesis/
+.pytest_cache/
