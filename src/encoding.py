@@ -1,4 +1,4 @@
-from scikit.preprocessing import OneHotEncoder, TargetEncoder
+from sklearn.preprocessing import OneHotEncoder, TargetEncoder
 import pandas as pd 
 
 def one_hot_encoder(df_train, df_test, 
