@@ -128,3 +128,6 @@ coverage.xml
 *.py,cover
 .hypothesis/
 .pytest_cache/
+
+# Data folder
+data/
