@@ -92,6 +92,10 @@ def make_predictions(estimator, test_data):
         predictions: array of predictions
     """
     predictions = estimator.predict(test_data)
+    # XGB Classifiers assume that target is encoded starting from 0
+    if "XGB" in str(estimator["model"]):
+        predictions += 1
+
     return predictions
 
 def format_submission(estimator, test_data):
@@ -105,7 +109,7 @@ def format_submission(estimator, test_data):
     Returns:
         my_submission: DataFrame with predictions in the correct format
     """
-    predictions = predictions = make_predictions(estimator, test_data)
+    predictions = make_predictions(estimator, test_data)
     submission_format = pd.read_csv(SUBMIT_DIR / SUBMIT_FORMAT_TEMPLATE, index_col='building_id')
     
     my_submission = pd.DataFrame(data=predictions,
@@ -143,6 +147,8 @@ def save_submission(estimator, test_data, timestamp):
         print(f"WARNING: this file already exists! Try again in a few seconds")
     else:
         submission.to_csv(SUBMIT_DIR / filename)
+
+    return SUBMIT_DIR / filename
 
 def save_model(estimator, timestamp):
     """
