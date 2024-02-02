@@ -63,6 +63,7 @@ def save_model(estimator, timestamp):
     else:
         pickle.dump(estimator, open(str(MODEL_DIR / filename), "wb"))
 
+    return MODEL_DIR / filename
     
 def load_model(file_path):
     return pickle.load(open(file_path, "rb"))
