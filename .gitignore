@@ -129,8 +129,11 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 
-# Data folder
+# Data
 data/
 
 # Exploration notebooks
 notebook/explore_*
+
+# Submission
+submissions/
