@@ -34,36 +34,15 @@ Our team of data scientists from [Data Science Retreat](https://datascienceretre
 # Project Structure
 
 ```
-
+TBA
 ```
 
 # Project Setup
 
-Open the Command line or Terminal
-
-    Clone the repository
-
-```bash
-git clone https://github.com/carecodeconnect/richters-predictor.git
-```
-
-
-    Move to the folder
-
-```bash
-cd richters-predictor
-```
-
-
-    To open with VSCode
-
-```bash
-code .
-```
-
-
-    To open with jupyter notebook (or maually open using jupyter notebook app)
-
-```
-jupyter notebook
-```
+- Sign up to DrivenData and join the Richter's Predictor competition: [DrivenData](https://www.drivendata.org/competitions/57/nepal-earthquake/)
+- Download the data files and save them to the `data` folder: [Download data](https://www.drivendata.org/competitions/57/nepal-earthquake/data/)
+- Install the required packages: `pip install -r requirements.txt`
+- Open the Jupyter Notebook: `jupyter notebook`
+- Run the notebook: `baseline.ipynb`
+- Run the best model: `best.py`
+- Deploy the app: `streamlit run app.py`
