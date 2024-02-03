@@ -41,8 +41,15 @@ TBA
 
 - Sign up to DrivenData and join the Richter's Predictor competition: [DrivenData](https://www.drivendata.org/competitions/57/nepal-earthquake/)
 - Download the data files and save them to the `data` folder: [Download data](https://www.drivendata.org/competitions/57/nepal-earthquake/data/)
+- Navigate to your projects folder, e.g. `cd ~/projects`
+- Clone the repository: `git clonehttps://github.com/carecodeconnect/richters-predictor`
+- Navigate to the project folder: `cd richters-predictor`
+- Create a virtual environment: `conda create -n richters-predictor python=3.10`
+- Activate the virtual environment: `conda activate richters-predictor`
+- Install Jupyter Notebook: `conda install jupyter`
+- Install Streamlit: `conda install -c conda-forge streamlit`
 - Install the required packages: `pip install -r requirements.txt`
 - Open the Jupyter Notebook: `jupyter notebook`
-- Run the notebook: `baseline.ipynb`
-- Run the best model: `best.py`
+- Open and run the notebook: `baseline.ipynb`
+- Open and run the best model: `best.py`
 - Deploy the app: `streamlit run app.py`
