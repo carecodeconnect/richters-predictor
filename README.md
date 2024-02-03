@@ -20,10 +20,6 @@ Here we some insights from our exploratory data analysis.
 
 <img src="graphics/class_imbalance.png" alt="class_imbalance" width="600"/>
 
-**Correlation matrix of numerical features**
-
-<img src="graphics/correlation_matrix_plot.png" alt="corr_matrix" width="600"/>
-
 **Damage grade and structure type**
 
 <img src="graphics/structure_type_damage_grade.png" alt="structure_tye_damage_grade" width="600"/>
