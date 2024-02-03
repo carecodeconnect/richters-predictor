@@ -132,8 +132,5 @@ coverage.xml
 # Data
 data/
 
-# Exploration notebooks
-notebook/explore_*
-
-# Submission
+# Sumbissions
 submissions/
