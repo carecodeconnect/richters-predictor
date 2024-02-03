@@ -24,7 +24,6 @@ Here we some insights from our exploratory data analysis.
 
 <img src="graphics/correlation_matrix_plot.png" alt="corr_matrix" width="600"/>
 
-
 # Methods
 
 Our team of data scientists from [Data Science Retreat](https://datascienceretreat.com/) in Berlin developed a model to predict the level of damage to the buildings. We used a variety of machine learning models, including Logistic Regression, Gradient Boosting, XGBoost, and Neural Networks. We also used a variety of feature engineering techniques, including one-hot encoding, target encoding, frequency encoding, and feature scaling.
