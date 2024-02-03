@@ -44,7 +44,16 @@ Our team of data scientists from [Data Science Retreat](https://datascienceretre
 # Project Structure
 
 ```
-TBA
+.
+├── data
+├── notebook
+├── README.md
+├── src
+│   └──clean.py
+|   └──encode.py
+|   └──utils.py
+└── requirements.txt
+
 ```
 
 # Project Setup
