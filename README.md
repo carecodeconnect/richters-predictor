@@ -26,7 +26,7 @@ Here we some insights from our exploratory data analysis.
 
 **Damage grade and structure type**
 
-<img src="graphics/structure_type_damage_grade" alt="structure_tye_damage_grade" width="600"/>
+<img src="graphics/structure_type_damage_grade.png" alt="structure_tye_damage_grade" width="600"/>
 
 
 # Methods
