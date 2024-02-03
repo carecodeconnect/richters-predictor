@@ -6,6 +6,7 @@ import pickle
 from sklearn.metrics import f1_score
 
 
+# Defining paths (file structure of repo)
 DATA_DIR = Path('../data')
 TRAIN_VALUES_FILE = 'train_values.csv'
 TRAIN_LABELS_FILE = 'train_labels.csv'
@@ -66,13 +67,19 @@ class Data:
 
 
 class Model:
-    """"""
+    """
+    Model class used for training, evaluating and predicting
+    """
     def __init__(self, estimator=None) -> None:
         self.estimator = estimator
         
         
     def train_model(self, X_train, y_train):
-        """"""
+        """trains model
+        Args:
+            X_train: training data
+            y_train. training labels
+        """
         self.estimator = self.estimator.fit(X_train, y_train)
     
     
@@ -167,7 +174,9 @@ class Model:
 
 
 class Submission:
-    """"""
+    """
+    Class for making and formatting submissions
+    """
     def __init__(self, estimator, data):
         self.estimator = estimator
         self.data = data
