@@ -21,6 +21,7 @@ Here we some insights from our exploratory data analysis.
 <img src="graphics/class_imbalance.png" alt="class_imbalance" width="600"/>
 
 **Correlation matrix of numerical features, [Link to interactive plot](graphics/correlation_matrix.html)**
+<a href="https://raw.githubusercontent.com/carecodeconnect/richters-predictor/main/graphics/correlation_matrix.html">TEST</a>
 <img src="graphics/correlation_matrix_plot.png" alt="corr_matrix" width="600"/>
 
 
