@@ -17,9 +17,11 @@ This project uses data provided by [DrivenData](https://www.drivendata.org/compe
 Here we some insights from our exploratory data analysis. 
 
 **Class imbalance of the target, [Link to interactive plot](graphics/class_imbalance.html)**
+
 <img src="graphics/class_imbalance.png" alt="class_imbalance" width="600"/>
 
 **Correlation matrix of numerical features, [Link to interactive plot](graphics/correlation_matrix.html)**
+
 <img src="graphics/correlation_matrix_plot.png" alt="corr_matrix" width="600"/>
 
 
