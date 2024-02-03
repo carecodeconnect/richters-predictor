@@ -18,6 +18,7 @@ envs/
 
 # Sphinx documentation
 docs/_build/
+docs/
 
 # PyBuilder
 target/
