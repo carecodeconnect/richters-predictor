@@ -11,7 +11,6 @@ Based on aspects of building location and construction, this project predicts th
 Deployed on Streamlit.
 
 # Dataset
-
 This project uses data provided by [DrivenData](https://www.drivendata.org/competitions/57/nepal-earthquake/). The data was collected through surveys by [Kathmandu Living Labs](https://kathmandulivinglabs.org/) and the Central Bureau of Statistics, which works under the National Planning Commission Secretariat of Nepal. This survey is one of the largest post-disaster datasets ever collected, containing valuable information on earthquake impacts, household conditions, and socio-economic-demographic statistics.
 
 ## Exploratory Data Analysis
