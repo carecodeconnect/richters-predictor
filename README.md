@@ -42,6 +42,8 @@ Our team of data scientists from [Data Science Retreat](https://datascienceretre
 
 # Results
 
+We achieve a micro-averaged F1 score of 0.7406
+
 # Project Structure
 
 ```
