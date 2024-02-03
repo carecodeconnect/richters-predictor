@@ -28,6 +28,7 @@ Here we some insights from our exploratory data analysis.
 
 <img src="graphics/structure_type_damage_grade.png" alt="structure_tye_damage_grade" width="600"/>
 
+You can find more plots and visualizations in the folder graphics
 
 # Methods
 
@@ -42,26 +43,10 @@ Our team of data scientists from [Data Science Retreat](https://datascienceretre
 - XGBoost
 - Matplotlib
 - Seaborn
-- Streamlit
 
 # Results
 
 We achieve a micro-averaged F1 score of 0.7406
-
-# Project Structure
-
-```
-.
-├── data
-├── notebook
-├── README.md
-├── src
-│   └──clean.py
-|   └──encode.py
-|   └──utils.py
-└── requirements.txt
-
-```
 
 # Project Setup
 
@@ -78,8 +63,6 @@ We achieve a micro-averaged F1 score of 0.7406
 - Create a virtual environment: `conda create -n richters-predictor python=3.10`
 - Activate the virtual environment: `conda activate richters-predictor`
 - Install the required packages: `pip install -r requirements.txt`
-- Install Jupyter Notebook: `conda install jupyter`
-- Install Streamlit: `conda install -c conda-forge streamlit`
 
 ## Run the project
 
